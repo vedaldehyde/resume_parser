@@ -1,0 +1,35 @@
+# Environment and Secrets (CRITICAL: Never commit .env)
+.env
+*.env
+
+# Python Bytecode and Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Local state and processed files
+processed_log.txt
+
+# Resumes (Keep directory tracked with .gitkeep, ignore actual documents)
+resumes/*
+!resumes/.gitkeep
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDE and Editor configurations
+.idea/
+.vscode/
+*.swp
+*.swo
+
